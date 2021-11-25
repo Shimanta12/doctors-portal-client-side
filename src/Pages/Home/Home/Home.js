@@ -1,9 +1,19 @@
 import React from 'react';
+import Banner from '../Banner/Banner';
+import DentalArticle from '../DentalArticle/DentalArticle';
+import Featured from '../Featured/Featured';
+import Services from '../Services/Services';
+import Testimonials from '../Testimonials/Testimonials';
+
 
 const Home = () => {
   return (
     <div>
-      home
+      <Banner />
+      <Featured />
+      <Services />
+      <DentalArticle />
+      <Testimonials />
     </div>
   );
 };
